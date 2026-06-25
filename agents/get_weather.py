@@ -8,7 +8,7 @@ import requests
 def get_weather(location: str) -> str:
     """Get the weather at a City"""
 
-    api_key = "613be52324fe36123f249056195bf88a"
+    api_key = "****************************"
     url = (
         f"https://api.openweathermap.org/data/2.5/weather"
         f"?q={location}&appid={api_key}&units=metric"
